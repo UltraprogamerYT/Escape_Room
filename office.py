@@ -64,7 +64,7 @@ while True:
 
     elif player_input == ("use spare key with door"):
         if inventory == "Spare Key":
-            print("you unlock the juant door and run to safety \n good job, you have escaped!")
+            print("you unlock the giant door and run to safety \n good job, you have escaped!")
 
     elif player_input == '':
 
