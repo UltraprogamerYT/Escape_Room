@@ -8,7 +8,3 @@ elif user_input == "the office":
 
 else:
     print("that is not a command")
-
-
-
-#IF U SEE THIS IT WORKED LOL YAYAYAYAYYAYAY
