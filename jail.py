@@ -32,8 +32,7 @@ while True:
         print(" \n the lose vent is too high up to reach")
 
     elif player_input == ("inspect bed"):
-        print(
-        " \n you lay on the bed and you feel something hard and sharp in the pillow \n you dump the contents out of the pillow cover and find \n a swiss army knife and a nail file")
+        print(" \n you lay on the bed and you feel something hard and sharp in the pillow \n you dump the contents out of the pillow cover and find \n a swiss army knife and a nail file")
         print(" \n you also find a jail outfit under the bed")
         print("\n nail file, swiss army knife, and jail outfit have been added into your inventory")
         inventory['nail file'] = 1
@@ -51,6 +50,13 @@ while True:
         print("you flush the toilet and nothing happens, you look in the water reserve and it is empty")
 
 
+    elif player_input == ("use wrench with sink"):
+        if inventory == "wrench":
+            print("you have your wrench in hand, but what way do you turn it?")
+            if player_input == "up up down up":
+                print("you twist the wrench and you hear water flowing, you look in the toilet bowl and see water \n you wash your face in the sink")
+            else:
+                print("you turn the wrench but nothing happens try again!")
 
 
     elif player_input == '':
